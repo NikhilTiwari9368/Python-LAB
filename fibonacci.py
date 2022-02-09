@@ -4,5 +4,5 @@ def fibonacci(num):
     else:
         return fibonacci(num - 1 ) + fibonacci(num - 2 )
 
-n=11
+n=int(input("Enter a number))
 print("the fibonacci series ",n,"is",fibonacci(n))
